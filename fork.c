@@ -28,8 +28,7 @@ void ParentProcess()
 	printf("PID is: %d",getpid());
 }
 
-/*OUTPUT
-Desktop/OS$ cc fork.c
-ty60@pc21:~/Desktop/OS$ ./a.out
-I am parent process..I am child process..
+/*OUTPUT :
+I am parent process..
+I am child process..
 */
