@@ -24,26 +24,3 @@ int main()
 	}
 	return 0;
 }
-
-/*OUTPUT
-ty60@pc21:~/Desktop/OS$ cc nice.c
-ty60@pc21:~/Desktop/OS$ ./a.out
-Press DEL to stop process
-Parent gets lower CPU priority 4 
-Child gets higher CPU priority -1 
-Parent gets lower CPU priority 8 
-Child gets higher CPU priority -1 
-Child gets higher CPU priority -1 
-Parent gets lower CPU priority 12 
-Child gets higher CPU priority -1 
-Parent gets lower CPU priority 16 
-Child gets higher CPU priority -1 
-Parent gets lower CPU priority 19 
-Child gets higher CPU priority -1 
-Parent gets lower CPU priority 19 
-Parent gets lower CPU priority 19 
-Child gets higher CPU priority -1 
-Child gets higher CPU priority -1 
-Parent gets lower CPU priority 19 
-
-*/
