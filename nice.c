@@ -3,7 +3,7 @@
 int main()
 {
 	int pid,retnice;
-	printf("Press DEL to stop process\n");
+	//printf("Press DEL to stop process\n");
 	pid=fork();
 	for(;;)
 	{
